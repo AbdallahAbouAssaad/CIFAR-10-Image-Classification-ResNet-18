@@ -21,7 +21,6 @@ transform_test = transforms.Compose([
 ])
 
 # Downloading the dataset and applying the preprocessing pipeline
-
 trainset = torchvision.datasets.CIFAR10(
     root='./data',
     train=True,
